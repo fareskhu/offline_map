@@ -1,4 +1,3 @@
-// ignore: depend_on_referenced_packages
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:palmear_application/presentation/widgets/general_widgets/toast.dart';

@@ -305,15 +305,15 @@ class _HomeBodyContentState extends State<HomeBodyContent>
                         },
                         style: ButtonStyle(
                           backgroundColor:
-                              MaterialStateProperty.resolveWith<Color>(
-                            (Set<MaterialState> states) {
+                              WidgetStateProperty.resolveWith<Color>(
+                            (Set<WidgetState> states) {
                               return _isListening
                                   ? _buttonBackgroundColor
                                   : Colors.white;
                             },
                           ),
                           shape:
-                              MaterialStateProperty.all<RoundedRectangleBorder>(
+                              WidgetStateProperty.all<RoundedRectangleBorder>(
                             RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(100.0),
                             ),

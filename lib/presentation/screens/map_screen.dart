@@ -82,7 +82,7 @@ class _MapScreenState extends State<MapScreen> {
               _polygons.add(Polygon(
                 polygonId: const PolygonId("farmPolygon"),
                 points: _polygonPoints,
-                fillColor: const Color(0xFF00916E).withOpacity(0.80),
+                fillColor: const Color(0xFF00916E).withOpacity(0.50),
                 strokeWidth: 2,
               ));
 
